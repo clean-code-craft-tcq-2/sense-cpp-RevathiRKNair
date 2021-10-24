@@ -3,8 +3,8 @@
 
 float Compute_Average(const std::vector<float>& data)
 {
-    float t_sum;
-    float t_average;
+    float t_sum=0;
+    float t_average=0;
 
     for(size_t i=0; i< data.size(); i++)
     {
